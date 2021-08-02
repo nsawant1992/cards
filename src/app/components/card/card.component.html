@@ -1,0 +1,9 @@
+<div>
+    <table>
+        <tbody>
+            <tr *ngFor="let ct of cards;let i = index">
+                <td (click)="toggleCard(i)">{{ct.currentText}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
